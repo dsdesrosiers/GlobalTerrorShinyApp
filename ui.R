@@ -30,7 +30,9 @@ shinyUI(fluidPage(
                div(class="header", checked=NA,
                    p("National Consortium for the Study of Terrorism and Responses to Terrorism (START). (2016). Global Terrorism Database [Data file]. Retrieved from ", a(href="https://www.start.umd.edu/gtd/", "https://www.start.umd.edu/gtd/")),
                    p(),
-                   a(href="https://www.start.umd.edu/gtd/downloads/Codebook.pdf", "Codebook")
+                   a(href="https://www.start.umd.edu/gtd/downloads/Codebook.pdf", "Codebook"),
+                   p(),
+                   a(href="https://github.com/dsdesrosiers/GlobalTerrorShinyApp", "Git Hub Repo")
                )
        })
     ),
